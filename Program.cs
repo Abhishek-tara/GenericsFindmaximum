@@ -6,21 +6,21 @@
         {
             Console.WriteLine("Welcome to the Program to find the Maximum problem using Generics");
 
-            Console.WriteLine("Executing three test cases to find the maximum Float number among three numbers");
+            Console.WriteLine("Executing three test cases to find the maximum String  among three strings");
 
             Console.WriteLine("\nTest case 1: ");
-            float max1 = MaxFloat.FindMaxFloat(6.5f, 4.5f, 3.2f);
-            Console.WriteLine($"{max1} is the greatest among three number");
+            string max1 = MaxString.FindMaxString("Peach", "Apple", "Banana");
+            Console.WriteLine($"{max1} is the greatest among three Strings");
             Console.WriteLine("\n--------------");
 
             Console.WriteLine("Test case 2: ");
-            float max2 = MaxFloat.FindMaxFloat(4.1f, 7.2f, 3.3f);
-            Console.WriteLine($"{max2} is the greatest among three number");
+            string max2 = MaxString.FindMaxString("Apple", "Mango", "Coconut");
+            Console.WriteLine($"{max2} is the greatest among three Strings");
             Console.WriteLine("\n--------------");
 
             Console.WriteLine("Test case 3: ");
-            float max3 = MaxFloat.FindMaxFloat(2.2f, 4.5f, 5.6f);
-            Console.WriteLine($"{max3} is the greatest among three number");
+            string max3 = MaxString.FindMaxString("Lime", "Orange", "Strawberry");
+            Console.WriteLine($"{max3} is the greatest among three Strings");
             
 
         }
